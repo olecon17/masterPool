@@ -1,0 +1,29 @@
+{
+  "name": "masters-server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "babel-cli": "6.14.0",
+    "babel-core": "6.14.0",
+    "body-parser": "^1.18.2",
+    "express": "4.13.3",
+    "fs": "0.0.2",
+    "mysql": "^2.15.0",
+    "node-fetch": "^1.7.3",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.33.4"
+  },
+  "scripts": {
+    "server": "babel-node server.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "concurrently": "3.1.0",
+    "eslint": "3.15.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.9.0"
+  }
+}
